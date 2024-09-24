@@ -1,0 +1,22 @@
+#to-do-btn{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+    font-size: 20px;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 9px;
+    padding: 8px;
+    margin: 8px;
+
+}
+
+.day{
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: underline;
+
+}
