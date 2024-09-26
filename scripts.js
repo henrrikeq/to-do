@@ -17,6 +17,14 @@ return data;
 
 fetchToDoList();
 
+// Asynch await assignement
+const request = async () => {
+    const response = await fetch('https://jsonplaceholder.typicode.com/todos');
+    const data = await response.json();
+    return data;
+    
+}
+
 
 console.log(toDoList);
 
